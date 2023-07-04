@@ -1,0 +1,82 @@
+/***************************************************************/
+                        /* IMPORTS */
+/***************************************************************/
+
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+
+/***************************************************************/
+                       /* VARIABLES */
+/***************************************************************/
+
+
+:root {
+
+
+    /* FONTS */
+    --main-font-family: 'Roboto', sans-serif;
+
+    /* FONT WEIGHTS */
+    --fw-regular: 400;
+    --fw-bold: 700;
+
+
+    /* COLORS */
+
+    /* Tomato */
+    --primary-color: hsl(4, 100%, 67%);
+    /* Dark Slate Grey */
+    --very-dark-grey: hsl(234, 29%, 20%);
+    /* Charcoal Grey */
+    --dark-grey: hsl(235, 18%, 26%);
+    /* Grey */
+    --grey: hsl(231, 7%, 60%);
+    /* White */
+    --white: hsl(0, 0%, 100%);
+
+}
+
+
+/***************************************************************/
+                       /* MAIN STYLES */
+/***************************************************************/
+
+
+/* html */
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+/* body */
+body {
+    display: flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    background: var(--white);
+}
+
+
+/* header-image */
+.header-img {
+    min-width: 100vw; 
+    height: 13.75rem;
+    background: var(--gradient-1, linear-gradient(225deg, #FF6A3A 0%, #FF527B 100%));
+    background-image: url(../assets/images/illustration-sign-up-mobile.svg);
+    flex-shrink: 0;
+    border-radius: 0rem 0rem 1rem 1rem;
+    border: 0px solid #19182B;    
+}
+
+
+
+
